@@ -1,0 +1,24 @@
+html{/*Hecho por AnderSuar 95*/
+background-image: url("https://www.teahub.io/photos/full/127-1276342_cool-video-game-wallpapers-fondo-de-pantalla-gamer.jpg");
+background-position-x:center;
+background-position-y:center;
+background-size: 86rem;
+background-repeat:no-repeat;
+}
+
+body{/*Hecho por AnderSuar 95*/
+background-color: #2c2f33;
+font-family:"Segoe UI", "Helvetica Neue", sans-serif;
+margin: 2em auto;
+padding: 1em 2em;
+max-width: 700px;
+-webkit-box-shadow: 0 1px 3px #00000021;
+box-shadow: 0 1px 3px #00000021;
+border-radius: 1.5rem;
+}
+
+#err p{/*Hecho por AnderSuar 95*/
+font-size: 14px;
+line-height: 1.5;
+margin: 25px 0 20px;
+}
