@@ -1,0 +1,285 @@
+/*Fuentes*/
+@font-face {
+	font-family: "Segoe Custom";
+	src: url("http://hubqo.github.io/cdn/SegoeUI.eof");
+	src: local("Segoe UI"), url("http://hubqo.github.io/cdn/SegoeUI.woff") format("woff");
+}
+/*Soporte principal*/
+*, *::before, *::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+/*Prueba*/
+#err p{/*Hecho por AnderSuar 95*/
+	font-size: 14px;
+	line-height: 1.5;
+	margin: 25px 0 20px;
+}
+h2{/*Hecho por AnderSuar 95*/
+	border-bottom: 1px solid #dadada;
+	clear: both;
+	color: #666;
+	font-size: 24px;
+	margin: 30px 0 0 0;
+	padding: 0 0 7px;
+}
+	  
+p{/*Hecho por AnderSuar 95*/
+	  color:#99aab5;
+}  
+a:hover{/*Hecho por AnderSuar 95*/
+	  color: #5b9dd9;
+}	  
+ul li{/*Hecho por AnderSuar 95*/
+	  margin-bottom: 10px;
+	  font-size: 14px;
+}  
+.button{/*Hecho por AnderSuar 95*/
+	  background: #f7f7f7;
+	  border: 1px solid #ccc;
+	  color: #555;
+	  display: inline-block;
+	  text-decoration: none;
+	  font-size: 13px;
+	  line-height: 26px;
+	  height: 28px;
+	  margin: 0;
+	  padding: 0 10px 1px;
+	  cursor: pointer;
+	  -webkit-border-radius: 3px;
+	  -webkit-appearance: none;
+	  border-radius: 3px;
+	  white-space: nowrap;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	  -webkit-box-shadow: 0 1px 0 #ccc;
+	  box-shadow: 0 1px 0 #ccc;
+	  vertical-align: top;
+	  }
+	.ab-download {/*Hecho por AnderSuar 95*/
+	display:inline-block;
+	font-family:Arial;
+	background:#f5f5f5f5;
+	text-align:center;
+	border:1px solid #bcc8cff5;
+	box-shadow:0 2px 1px #bcc8cff5;
+	margin:15px 90px;
+	padding:30px;
+	border-radius:10px;
+	min-width:100px;
+	}
+	
+	.ab-icon {/*Hecho por AnderSuar 95*/
+	display:block;
+	width:90px;
+	height:90px;
+	margin:0 auto;
+	}
+	
+	.ab-name {/*Hecho por AnderSuar 95*/
+	color:#222;
+	font-style:italic;
+	}
+	
+	.ab-size {/*Hecho por AnderSuar 95*/
+	display:block;
+	padding:10px;
+	font-size:11px;
+	color:#888;
+	}
+	
+	.download-message {/*Hecho por AnderSuar 95*/
+	display:block;
+	margin:0 -2px;
+	cursor:pointer;
+	background:#1976d2;
+	background:linear-gradient(#2196f3, #1565c0);
+	box-shadow:0 1px 0 #1976d2;
+	text-align:center;
+	padding:8px;
+	color:#f5f5f5bb;
+	font-weight:bold;
+	border-radius:8px;
+	}
+	
+	.download-message:hover {/*Hecho por AnderSuar 95*/
+	box-shadow: 0 0 4px #1976d2;
+	}
+	
+	/*Tipos de archivo*/
+	.drive {/*Hecho por AnderSuar 95*/
+	background:url(https://i.ibb.co/wS4k3YC/image.png) no-repeat center;
+	}/*Hecho por AnderSuar 95*/
+	.mediafire {
+	background:url(https://i.ibb.co/2YwRJgZ/image.png) no-repeat center;
+	}/*Hecho por AnderSuar 95*/
+	.mega {/*Hecho por AnderSuar 95*/
+	background:url(https://i.ibb.co/bXtcc9t/mega.png) no-repeat center;
+	}/*Hecho por AnderSuar 95*/
+	.shared {/*Hecho por AnderSuar 95*/
+	background:url(https://i.ibb.co/CWVDCG5/4shared.png) no-repeat center;
+	}/*Hecho por AnderSuar 95*/
+	.download {/*Hecho por AnderSuar 95*/
+	background:url(https://i.ibb.co/gF5BQzX/image.png) no-repeat center;
+	}/*Hecho por AnderSuar 95*/
+
+/*Base principal*/
+html {
+	height: 100%;
+	font-family: "Segoe Custom", sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 14px;
+	line-height: 1.428571429;
+	background-color: #454545;
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 80px;
+}
+h1 {
+	font-weight: normal;
+	line-height: 1.1;
+}
+a {
+	text-decoration: none;
+}
+
+/*Cabecera*/
+#main-header {
+	background: #333;
+	color: white;
+	height: 60px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+#main-header a {
+	color: white;
+}
+/*Logo*/
+#logo-header {
+	float: left;
+	padding: 15px 0 0 8px;
+	text-decoration: none;
+}
+#logo-header:hover {
+	color: #0b76a6;
+}
+
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: #fff;
+}
+/*Navegacion*/
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 60px;
+}
+nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	background: #0b76a6;
+}
+/*Contenido*/
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.102);
+}
+#main-content header,
+#main-content .content {
+	padding: 40px;
+}
+/*Pie de la pagina*/
+footer {
+	background-color: #454545;
+	padding: 20px;
+	margin-top: 40px;
+}
+.links {
+	margin: 0 auto;
+	padding-top: 8px;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+}
+.links a {
+	margin-left: 1px;
+	color: white;
+	font-size: 20px;
+}
+
+/*Fuente personalizada*/
+.container {
+  display: flex;
+/*   border:1px solid red; */
+  height: 100%;
+  align-items: center;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+	animation: stroke-offset 5.5s infinite linear;
+	font-family: 'Baloo Tamma', cursive;
+}
+
+.text-copy:nth-child(1){
+	stroke: #b993d6bb;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #ddd6f3bb;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #8ca6dbbb;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #ddd6f3bb;
+	animation-delay: -4s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
