@@ -151,7 +151,13 @@ h1 {
 a {
 	text-decoration: none;
 }
-
+/*Imagen*/
+img {
+width: 1024px;
+height: 768px;
+display:block;
+margin:auto;
+}
 /*Cabecera*/
 #main-header {
 	background: #333;
