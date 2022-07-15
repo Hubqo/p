@@ -153,13 +153,13 @@ a {
 }
 /*Imagen*/
 img {
-width: 720px;
-height: 90px;
+width: 320px;
+height: 45px;
 display:block;
 margin:auto;
 }
 .image {
-width: 640px;
+width: 720px;
 height: 90px;
 display:block;
 margin:auto;
