@@ -159,6 +159,8 @@ a {
 }
 /*Imagen del contador de visitas*/
 .img {
+	width: 270px;
+	height: 54px;
 	display:block;
 	margin:auto;
 }
