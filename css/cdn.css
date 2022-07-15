@@ -151,18 +151,16 @@ h1 {
 a {
 	text-decoration: none;
 }
-/*Imagen*/
-img {
-width: 125px;
-height: 25px;
-display:block;
-margin:auto;
-}
 .image {
-width: 720px;
-height: 90px;
-display:block;
-margin:auto;
+	width: 720px;
+	height: 90px;
+	display:block;
+	margin:auto;
+}
+/*Imagen del contador de visitas*/
+.img {
+	display:block;
+	margin:auto;
 }
 /*Cabecera*/
 #main-header {
