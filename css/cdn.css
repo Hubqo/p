@@ -158,6 +158,12 @@ height: 90px;
 display:block;
 margin:auto;
 }
+.image {
+width: 640px;
+height: 90px;
+display:block;
+margin:auto;
+}
 /*Cabecera*/
 #main-header {
 	background: #333;
