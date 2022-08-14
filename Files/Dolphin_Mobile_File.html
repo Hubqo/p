@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon" type="image/png" href="https://hubqo.github.io/cdn/kix-favicon7.ico">
+    <title>Dolphin Mobile Emulator - Hubqo Files</title>
+    <style>
+	.header{width:100%;height:40%;background-color:#38373e;position:relative;text-align:center}h1,p{margin:0;color:#fff}
+	.downloadfour {font-family: sans-serif; display: block; text-transform: uppercase; text-decoration: none; margin: 0 auto; width: 100%; text-align: center; color: #fff; border: 1px solid #1d86ff; background-color: #0170f0; padding: 10px 0px; font-size: 23px; font-weight: 500; animation: pulse 2.3s infinite; border-radius: 7px; transition: .5s;}
+	.downloadfour:hover {animation:none; background-color: #1d86ff;}
+	body { background: #ebebeb; overflow:  hidden; }
+	.download-block-n {margin: 150px auto 200px; font-family: sans-serif; text-align: center; background: #ffffff; padding: 15px; width: 600px; position: relative; box-sizing: border-box; border-radius: 10px; }
+	.download-block-n p {color: #fff; margin-bottom: 10px;}
+	.bfilen {font-style: normal; background-color: #dbdbdb; color: #323232 !important; font-size: 25px; padding: 5px 9px; border-radius: 10px 10px 0 0; font-weight: 300;}
+	.dvabove, .pash1 {display: block;}
+	.dtopk {margin-top: 15px !important; display: block;}
+	.left-block {float: left;}
+	.file-image { width: 80px; float: left;}
+	.b-file-name { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; color: #363636; font-weight: bold; font-size: 17px; display: block; margin-top: 20px; text-align: left; }
+	.file-name {position: absolute; top: -30px; left: 0px; width: 100%;}
+	#lang2 {font-weight: 100; font-size: 12px; color: #9e9e9e; display: block; float: left;}
+
+	</style>
+</head>
+<body oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+    <div class="download-block-n">
+        <div class="file-name">
+            <p class="bfilen"><span id="lang0"></span> <span id="lang1"></span></p>
+        </div>
+        <div class="left-block">
+            <img class="file-image" src="./image/file.png">
+            <span class="b-file-name">Dolphin Delta v3<br><span id="lang2"></span></span>
+	</div> 
+            <br><br><br><br><br>
+			<a id="" class="download_link downloadfour" onClick="window.location='https://github.com/Hubqo/p/raw/gh-pages/Files/download/Dolphin-Delta-v3.apk';" target="_blank"><span id="lang3"></span></a>
+    </div>
+	<script>
+		let lang = window.navigator.languages ? window.navigator.languages[0] : null;
+		lang = lang || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+
+		let shortLang = lang;
+		if (shortLang.indexOf('-') !== -1)
+			shortLang = shortLang.split('-')[0];
+
+		if (shortLang.indexOf('_') !== -1)
+			shortLang = shortLang.split('_')[0];
+
+		const translations_json = '{ "en": ["File","is ready to be downloaded","Use 7Zip to Unpack","Download"], "es": ["Expediente","está listo para ser descargado","Utilice 7Zip para desembalar","Descargar"], "br": ["Arquivo","está pronto para ser baixado","Use 7Zip para desempacotar","Download"] }';
+		const translated = JSON.parse(translations_json);
+
+		var user_lang = 'en';
+
+		if(shortLang=='es' || shortLang=='br'){
+		  
+		  user_lang = shortLang;
+		  
+		  for (let i = 0; i < 4; i++) {
+			  var target_id = "lang"+i;
+			  var string = translated[shortLang][i];
+			  document.getElementById(target_id).innerHTML = string;
+		  }
+		} 
+	</script>
+</body></html>
